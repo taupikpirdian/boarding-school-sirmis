@@ -1,0 +1,43 @@
+@media(max-width: 900px){
+.center {
+	padding-top: 10%;
+	}
+}
+
+@media(max-width: 900px){
+.center h2 {
+	font-size: 20px;
+	}
+}
+
+.h3-pendaftaran {
+	text-align: center;
+}
+
+@media(max-width: 900px){
+.h3-pendaftaran {
+	font-size: 20px;
+	}
+}
+
+.md-reg {
+	text-align: left; 
+	position: relative; 
+	left: 10%;
+}
+
+@media(max-width: 900px) {
+	.md-reg {
+		margin-left: 100px;
+	}
+}
+
+.center h1 {
+	font-size: 26px;
+}
+
+@media(max-width: 900px){
+.center h1 {
+	font-size: 19px;
+	}
+}

@@ -1,0 +1,28 @@
+.strukturs {
+	width: 100%;
+	float: left;
+	background-color: #fff;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+
+.struktur {
+	text-align: justify;
+}
+
+.struktur h2 {
+	font-family: Cooper Std;
+	font-weight: 600;
+	font-size: 25px;
+	color: #1C1C1C;
+	text-align: center;
+	margin-bottom: 3%;
+}
+
+@media(max-width: 900px) {
+	.struktur h2 {
+		font-size: 20px;
+	}
+}

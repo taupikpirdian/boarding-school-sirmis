@@ -1,0 +1,115 @@
+.page-header {
+	background-color: #fff;
+}
+
+.container h2 {
+	margin-right: 85%;
+	color: #000;
+	font-family: "calibri";
+
+}
+
+
+.images {
+	width: 200%;
+	height: 200%;
+	padding: 0px;
+	margin: 0px;
+	
+}
+
+.col-md-8 .isi {
+	width: 90%;
+	height: 90%;
+	margin-left: 20%;
+
+}
+
+.col-md-8 .isi a {
+	
+	font-size: 25px;
+	margin-right: 285px;
+
+	
+}
+
+.isi p {
+	text-align: justify;
+	margin-left: 1%;
+	
+}
+
+.button a {
+	
+	background-color: white;
+	color: green;
+	padding-right: 29px;
+	: 20px;
+
+}
+
+.btn-akhir {
+	position: relative;
+	right: 26%;
+}
+
+
+#col-md-4 {
+	margin-right: 20px;
+	padding-right: 20px;
+}
+#sidebar {
+	width: 29%;
+    float: left;
+    margin-left: 20px;
+
+}
+
+.foto {
+	margin-left: 95px;
+}
+
+.isi2 {
+	margin-right: 5px;
+}
+
+
+/*visi-misi*/
+.visimisi{
+	margin: 0px 0px 20px 0px;
+}
+
+.visimisi h2{
+	margin: 0px 0px 20px 0px;
+}
+
+.visimisi p{
+	text-align: justify;
+}
+
+.titel-nomar{
+	margin: 0px !important;
+	text-align: center;
+	color: #118345 !important;
+}
+
+
+/*detail lembaga*/
+.detailembaga{
+	margin: 0px 0px 20px 0px;
+}
+
+.detailembaga h2{
+	margin: 0px 0px 20px 0px;
+}
+
+.detailembaga p{
+	text-align: justify;
+}
+
+.titel-nomar{
+	margin: 0px !important;
+	text-align: center;
+	color: #118345 !important;
+}
+

@@ -1,0 +1,243 @@
+.galeri { 
+	background-color: #FFF;
+	width: 100%;
+	height: 600px auto;
+	float: left;
+	padding-top: 3%;
+	padding-bottom: 7%;
+}
+
+.galeri-title-home {
+	padding-left: 7%;
+	padding-right: 7%;
+}
+
+@media (max-width: 2000px) {
+	.galeri-title-home {
+		padding-left: 15%;
+		padding-right: 15%;
+		margin-bottom: 3%;
+	}
+}
+
+.galeri-title-home h2 {
+ 	text-align: center;
+ 	font-family: Cooper Std;
+	font-weight: 600;
+	font-size: 35px;
+	color: #1C1C1C;
+	margin-bottom: 4%;
+}
+
+@media (max-width: 500px) {
+	.galeri-title-home h2 {
+		font-size: 20px;
+	}
+}
+
+.galeri-title-home p {
+	text-align: center;
+	color: #b0c4de;
+	font-size: 20px;
+}
+
+@media (max-width: 500px) {
+	.galeri-title-home p {
+		font-size: 12px;
+	}
+}
+
+.galery-all {
+	width: 300px; 
+	height: 50px; 
+	background-color: #118345;
+	float: left;
+	position: relative;
+	top: 20px;
+	right: 30%;
+}
+
+.galery-all p {
+	color: #fff;
+	font-size: 23px;
+	text-align: center;
+	font-family: Garamond;
+}
+
+@media (max-width: 1200px) {
+	.galery-all {
+		position: relative;
+		left: 41.5%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.galery-all {
+		position: relative;
+		left: 42.5%;
+	}
+}
+
+#rig-detail {
+    margin:0 auto; /*center aligned*/
+    padding:0;
+    font-size:0; /* Remember to change it back to normal font size if have captions */
+    list-style:none;
+    float: left;
+    margin-top: 3%;
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+	#rig-detail {
+		margin:0 auto; /*center aligned*/
+	    text-align: center;
+	    position: relative;
+	    left: 1%;
+	    top: 15%;
+	    padding-left: 10%;
+	    padding-right: 10%;	
+	}
+}
+
+@media (min-width:  1200px) {
+  #rig-detail { 
+    margin:0 auto; /*center aligned*/
+    text-align: center;
+    position: relative;
+    top: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+#rig-detail li {
+    display: inline-block;
+    *display:inline;/*for IE6 - IE7*/
+    width:100%;
+    vertical-align:middle;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+@media (min-width: 1200px) {
+	#rig-detail li {
+		width: 30%;
+	}
+}
+
+@media (max-width: 1200px) {
+    #rig-detail li {
+        width:30%;
+    }
+}
+
+@media (max-width: 700px) {
+    #rig-detail li {
+        width:33.33%;
+    }
+}
+
+@media (max-width: 550px) {
+    #rig-detail li {
+        width:50%;
+    }
+}
+        
+/* The wrapper for each item */
+.rig-cell-detail {
+    /*margin:12px;*/
+    /*box-shadow:0 0 6px rgba(0,0,0,0.3);
+    */
+    display:block;
+    position: relative;
+    overflow:hidden;
+    width: 100%;
+/*    margin-left: 5px;
+    margin-bottom: 5px;*/
+}
+
+@media (min-width: 1000px) {
+	.rig-cell-detail {
+		display:block;
+	    position: relative;
+	    overflow:hidden;
+	    width: 100%;
+	    padding-right: -10%;
+	    margin: 0;
+	}
+}
+
+@media (min-width: 1200px) {
+	.rig-cell-detail {
+		width: 100%;
+	}
+}
+        
+/* If have the image layer */
+.rig-img-detail {
+    display:block;
+    width: 100%;
+    height: auto;
+    border:none;
+    transform:scale(1);
+    transition:all 1s;
+}
+
+#rig-detail li:hover .rig-img-detail {
+    transform:scale(1.05);
+}
+        
+/* If have the overlay layer */
+.rig-overlay-detail {
+    position: absolute;
+    display:block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: #3DC0F1 url(img/link.png) no-repeat center 20%;
+    background-size:50px 50px;
+    opacity:0;
+    filter:alpha(opacity=0);/*For IE6 - IE8*/
+    transition:all 0.6s;
+}
+#rig-detail li:hover .rig-overlay-detail {
+    opacity:0.3;
+    background-color: green;
+}
+
+/* If have captions */
+.rig-text-detail {
+    display:block;
+    padding:0 30px;
+    box-sizing:border-box;
+    position:absolute;
+    left:0;
+    width:100%;
+    text-align:center;
+    text-transform:capitalize;
+    font-size:18px;
+    font-weight:bold;
+    font-family: 'Oswald', sans-serif;
+    font-weight:normal!important;
+    top:40%;
+    color:white;
+    opacity:0;
+    filter:alpha(opacity=0);/*For older IE*/
+    transform:translateY(-20px);
+    transition:all .3s;
+}
+
+@media (max-width: 500px) {
+	.rig-text-detail {
+		font-size: 12px;
+	}
+}
+
+#rig-detail li:hover .rig-text-detail {
+    transform:translateY(0px);
+    opacity:0.9;
+}

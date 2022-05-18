@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+ 
+ .history {
+ 	width: 100%;
+ 	background-color: #fff;
+ 	padding-bottom: 3%;
+ 	padding-top: 4%;
+ 	text-align: center;
+ }
+
+ .history .sejarah {
+ 	width: 100%;
+ 	margin-right: 5%;
+ 	text-align: justify;
+ 	padding-left: 8%;
+ 	padding-right: 8%;
+ 	padding-bottom: 10%;
+ }
+
+ .sejarah h2 {
+	font-family: Cooper Std;
+	font-weight: 600;
+	font-size: 35px;
+	color: #1C1C1C;
+	text-align: center;
+ }
+
+ @media(max-width: 900px) {
+ 	.sejarah h2 {
+ 		font-size: 20px;
+ 	}
+ }

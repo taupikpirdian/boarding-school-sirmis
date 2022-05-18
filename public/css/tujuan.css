@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+ 
+ .tujuan {
+ 	width: 100%;
+ 	background-color: #fff;
+	padding-top: 4%;
+	padding-bottom: 4%;
+	padding-left: 8%;
+	padding-right: 8%;	
+ 	text-align: center;
+}
+
+@media(max-width: 900px) {
+	.tujuan {
+		padding-top: 5%;
+	}
+}
+
+.tujuan .tujuan1 {
+ 	height: 800px auto;
+ 	width: 100%;
+ 	margin-bottom: 3%;
+ 	text-align: justify;
+}
+
+.tujuan1 h2 {
+ 	text-align: center;
+ 	font-family: Cooper Std;
+	font-weight: 600;
+	font-size: 25px;
+	color: #1C1C1C;
+	margin-bottom: 4%;
+}
+
+@media(max-width: 900px) {
+	.tujuan1 h2 {
+		font-size: 20px;
+	}
+}
